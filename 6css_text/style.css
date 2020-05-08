@@ -1,0 +1,44 @@
+/*
+!important > ID > class > tag
+p {
+  color: blue !important;
+}
+a b {} -> a and b
+a,b {} -> a or b
+*/
+
+p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+    background-color: rgb(235, 233, 131);
+    opacity: 0.75;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#article-title {
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+h2.destination {
+    font-family: cursive;
+}
+
+.description h5 {
+    color: teal;
+}
+
+h5 {
+    color: rebeccapurple;
+}
+
+h5,
+p {
+    font-family: Georgia;
+}
